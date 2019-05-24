@@ -1,3 +1,75 @@
+
+.App-header {
+  padding-left:1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  background: linear-gradient(121.89deg, #00B0DE 0.36%, #01AEDC 4.04%, #02ABDB 7.77%, #02ABDB 11.48%, #02ABDB 11.7%, #196EBD 100%);
+  color: white;
+  height: 20em;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  background: green;
+  padding: 0 1em;
+}
+
+.header-text p {
+  height: 1em;
+  width: 100%;
+  background: black;
+}
+
+.selector-city {
+  padding: 0em 1em;
+  padding-top: 1em;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selector-city > p {
+  height: 1em;
+  margin-top: 0;
+  width: 10%;
+  background: black;
+}
+
+.selector {
+  background: black;
+  display: flex;
+  width: 8%;
+  justify-content: space-between;
+  height: 1em;
+}
+
+.selector div {
+  background: green;
+  width: 1em;
+  height: 1em;
+}
+
+.input-city {
+  background: blue;
+  display: flex;
+  padding: 0 1em;
+  padding-top: 1em;
+}
+.input-city p {
+  height: 1em;
+  margin-top: 0;
+  width: 10%;
+  background: black;
+}
+
+
+
+
+
+
+
+/* npx create-react-app settings */
 .App {
   text-align: center;
 }
@@ -8,16 +80,7 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
