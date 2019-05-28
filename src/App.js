@@ -62,31 +62,156 @@ function App() {
 					<div className='popular-city' />
 				</div>
 				<div className='travel-selector'>
-					<div className='travel-item'>
-						<p>Text</p>
+					<div className='travel-slot'>
+						<div className='travel-item'>
+							<p>Text</p>
+						</div>
 					</div>
-					<div className='travel-item'>
-						<p>Text</p>
+
+					<div className='travel-slot'>
+						<div className='travel-item'>
+							<p>Text</p>
+						</div>
 					</div>
-					<div className='travel-item'>
-						<p>Text</p>
+
+					<div className='travel-slot'>
+						<div className='travel-item'>
+							<p>Text</p>
+						</div>
 					</div>
-					<div className='travel-item'>
-						<p>Text</p>
+
+					<div className='travel-slot'>
+						<div className='travel-item'>
+							<p>Text</p>
+						</div>
 					</div>
-					<div className='travel-item'>
-						<p>Text</p>
+
+					<div className='travel-slot'>
+						<div className='travel-item'>
+							<p>Text</p>
+						</div>
 					</div>
-					<div className='travel-item'>
-						<p>Text</p>
+
+					<div className='travel-slot'>
+						<div className='travel-item'>
+							<p>Text</p>
+						</div>
 					</div>
 				</div>
 				<div className='Gallary'>
 					<div className='photo'>
 						<img />
-						<div className='ticket-info' />
+						<div className='ticket-info'>
+							<div>
+								<p>City</p>
+								<p>Country</p>
+							</div>
+							<div>
+								<p>Cost</p>
+								<p>Date</p>
+							</div>
+						</div>
 					</div>
-					/>
+
+					<div className='photo'>
+						<img />
+						<div className='ticket-info'>
+							<div>
+								<p>City</p>
+								<p>Country</p>
+							</div>
+							<div>
+								<p>Cost</p>
+								<p>Date</p>
+							</div>
+						</div>
+					</div>
+
+					<div className='photo'>
+						<img />
+						<div className='ticket-info'>
+							<div>
+								<p>City</p>
+								<p>Country</p>
+							</div>
+							<div>
+								<p>Cost</p>
+								<p>Date</p>
+							</div>
+						</div>
+					</div>
+
+					<div className='photo'>
+						<img />
+						<div className='ticket-info'>
+							<div>
+								<p>City</p>
+								<p>Country</p>
+							</div>
+							<div>
+								<p>Cost</p>
+								<p>Date</p>
+							</div>
+						</div>
+					</div>
+
+					<div className='photo'>
+						<img />
+						<div className='ticket-info'>
+							<div>
+								<p>City</p>
+								<p>Country</p>
+							</div>
+							<div>
+								<p>Cost</p>
+								<p>Date</p>
+							</div>
+						</div>
+					</div>
+
+					<div className='photo'>
+						<img />
+						<div className='ticket-info'>
+							<div>
+								<p>City</p>
+								<p>Country</p>
+							</div>
+							<div>
+								<p>Cost</p>
+								<p>Date</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className='popular-flights'>
+					<div className='logo-way' />
+					<p>Лучшие цены на авиабилеты за последний месяц</p>
+				</div>
+				<div className='flights'>
+					<div className='country'>
+						<div className='country-icon' />
+						<div className='country-from'>
+							<p>Симферополь (Крым)</p>
+							<p>КРЫМ</p>
+						</div>
+					</div>
+
+					<div className='country-to'>
+						<div className='country-name'>
+							<p>Из Москвы</p>
+							<p>Из Санкт-Петербурга</p>
+							<p>Из Новосибирска</p>
+							<p>Из Екатеринбурга</p>
+							<p>Из Челябинска</p>
+						</div>
+						<div className='country-cost'>
+							<p>от 4 813 ₽</p>
+							<p>от 4 813 ₽</p>
+							<p>от 15 127 ₽</p>
+							<p>от 4 813 ₽</p>
+							<p>от 4 813 ₽</p>
+						</div>
+					</div>
 				</div>
 			</main>
 		</div>
