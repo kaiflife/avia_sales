@@ -302,6 +302,9 @@
   font-size: 1em;
 }
 
+.offer-footer {
+  color:white;
+}
 
 .offer-footer > p:last-child {
   font-size: unset;
@@ -319,7 +322,14 @@
   pointer-events: none;
 }
 
-
+.guide a:visited {
+  color: #00ACE2;
+  text-decoration: none;
+}
+.guide a {
+  color: #00ACE2;
+  text-decoration: none;
+}
 
 .App-link {
   color: #61dafb;
