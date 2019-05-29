@@ -281,26 +281,78 @@ function App() {
 				<div className='Special-offers'>
 					<p>Спецпредложения на авиабилеты</p>
 					<div className='offer'>
-						<div className='offer-header'>
-							<p>Билеты от 499 рублей</p>
-						</div>
 						<div className='offer-main'>
-							<div>
-								<p>POBEDA</p>
+							<div className='offer-object'>
+								<div className='offer-title'>
+									<p>Билеты от 499 рублей</p>
+								</div>
+								<div className='offer-name'>
+									<p>POBEDA</p>
+									<div>
+										<p>от 499 Р</p>
+										<p>Осталось 45 дней</p>
+									</div>
+								</div>
+								<div className='offer-info'>
+									<p>
+										Билеты от 499 рублей! Специальное предложение от
+										авиакомпании Победа
+									</p>
+								</div>
 								<div>
-									<p>от 499 Р</p>
-									<p>Осталось 45 дней</p>
+									<button>Узнать подробнее</button>
 								</div>
 							</div>
-							<div>
-								<p>
-									Билеты от 499 рублей! Специальное предложение от авиакомпании
-									Победа
-								</p>
+
+							<div className='offer-object'>
+								<div className='offer-title'>
+									<p>Билеты от 499 рублей</p>
+								</div>
+								<div className='offer-name'>
+									<p>POBEDA</p>
+									<div>
+										<p>от 499 Р</p>
+										<p>Осталось 45 дней</p>
+									</div>
+								</div>
+								<div className='offer-info'>
+									<p>
+										Билеты от 499 рублей! Специальное предложение от
+										авиакомпании Победа
+									</p>
+								</div>
+								<div>
+									<button>Узнать подробнее</button>
+								</div>
 							</div>
-							<div>
-								<button>Узнать подробнее</button>
+
+							<div className='offer-object'>
+								<div className='offer-title'>
+									<p>Билеты от 499 рублей</p>
+								</div>
+								<div className='offer-name'>
+									<p>POBEDA</p>
+									<div>
+										<p>от 499 Р</p>
+										<p>Осталось 45 дней</p>
+									</div>
+								</div>
+								<div className='offer-info'>
+									<p>
+										Билеты от 499 рублей! Специальное предложение от
+										авиакомпании Победа
+									</p>
+								</div>
+								<div>
+									<button>Узнать подробнее</button>
+								</div>
 							</div>
+						</div>
+						<div className='offer-footer'>
+							<a href=''>
+								<p>Смотреть все предложения</p>
+							</a>
+							<p>* средняя цена по направлению</p>
 						</div>
 					</div>
 				</div>

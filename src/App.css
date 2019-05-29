@@ -250,7 +250,7 @@
   color:white;
 }
 
-.offer-header {
+.offer-title {
   background: #CD2027;
   width: 100%;
   color:white;
@@ -260,16 +260,17 @@
   align-items: center;
 }
 
-.offer-header > p {
+.offer-title > p {
   margin-left: 1em;
 }
 
 .offer-main {
-  background: white;
+  margin-bottom: 2em;
 }
 
-.offer-main > div > p{
-  margin-top: 0;
+.offer-object {
+  margin-bottom: 2em;
+  background: white;
 }
 
 .offer-main button {
@@ -277,10 +278,34 @@
   background: white;
   border: 0.5vw red solid;
   border-radius: 0.5vw;
-  width: 100%;
+  width: 90%;
   height: 10vw;
+  margin-bottom: 1em;
 }
 
+.offer-name {
+  padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-info {
+  padding: 0 1em;
+}
+.offer-info p {
+  text-align: left;
+}
+
+.offer-name p:last-child {
+  color:red;
+  font-size: 1em;
+}
+
+
+.offer-footer > p:last-child {
+  font-size: unset;
+}
 
 
 /* npx create-react-app settings */
