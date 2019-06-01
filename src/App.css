@@ -256,7 +256,7 @@
   color:white;
   height: 20vw;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -310,6 +310,13 @@
   font-size: unset;
 }
 
+.special-logo {
+  background: white;
+  height: 8vw;
+  width: 8vw;
+  margin-right: 1em;
+}
+
 
 /* npx create-react-app settings */
 .App {
@@ -331,6 +338,17 @@
   text-decoration: none;
 }
 
+.guide-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.guide-icon {
+  background: red;
+  height: 4vw;
+  width: 4vw;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -342,4 +360,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.footer-header {
+  background: linear-gradient(132.6deg, #00B0DE 0%, #196EBD 100%);
+  margin-bottom: 2em;
+}
+
+.footer-header p {
+  color:white;
+}
+
+.footer-header img {
+  width: 40vw;
+  height: 50vw;
+}
+
+.app-info {
+  padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-devices {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-devices  > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+
+.device-icon {
+  width: 8vw;
+  height: 8vw;
+  background: white;
+}
+
+.app-devices p {
+  font-size: 4vw;
+  margin: 0;
 }
